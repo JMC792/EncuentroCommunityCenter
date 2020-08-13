@@ -1,0 +1,25 @@
+<h1 [class.gray]="h1Style">Please answer these Questions</h1>
+
+<br>Select your Insurance
+ <select name="insurance">
+  <option value="Cigna">Cigna</option>
+  <option value="Blue Cross">Blue Cross</option>
+  <option value="Humana">Humana</option>
+  <option value="Aetna">Aetna</option>
+</select>
+<br />
+
+<br>What appointment are you looking to book?
+<select name="appointment">
+  <option value="Physical">Physical </option>
+  <option value="Eye Care">Eye Care</option>
+  <option value="Mammograms">Mammograms</option>
+  <option value="Vaccinations">Vaccinations</option>
+</select>
+<br/>
+
+<br />Zip Code <input type="text" name="Zip" required placeholder="Zip Code" size="5">
+
+<button (click)="firstClick()">Submit</button>
+
+

@@ -1,0 +1,21 @@
+.contact {
+  float: left ;
+  font-weight: bold ;
+}
+
+.information {
+  float: right ;
+  font-weight: bold ;
+}
+
+.hours {
+  float: center ;
+  text-align: center; 
+  font-weight: bold ;
+  background-color: white ;
+}
+
+div {
+  clear : right ;
+}
+
